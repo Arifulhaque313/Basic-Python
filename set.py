@@ -1,7 +1,16 @@
-a={3,4,5,6,7,6}
+SetOfDrinks={"cola","sprite","beer","water","soda"}
 
-b={2,3,4,5,11,23}
 
-num=a|b
+print(SetOfDrinks)
 
-print(num)
+SetOfDrinks.add("soda")
+print(SetOfDrinks)
+
+SetOfDrinks.remove("soda")
+print (SetOfDrinks)
+
+set2=SetOfDrinks.copy()
+print(set2)
+
+x="sajib"
+print("The langth of the string is  : "+str(len(x) ))
